@@ -1,0 +1,32 @@
+﻿# Виртуальное окружение Python
+.venv/
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Временные файлы Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы с секретами и токенами
+.env
+kaggle.json
+access_token
+
+# Сырые и обработанные данные
+data/raw/*
+data/processed/*
+
+# Оставляем структуру папок в Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Архивы
+*.zip
+
+# Системные файлы
+.DS_Store
+Thumbs.db
